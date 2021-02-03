@@ -7,11 +7,44 @@
 }
 
 input {
-  margin-top: 50px;
-  margin-left: 20px;
-  width: 300px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  width: 400px;
   height: 40px;
   color: green;
-  border: 2px solid black;
+  border: 2px solid green;
   font-size: 20px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.countries-list {
+  display: block;
+  list-style-type: square;
+  margin-left: 60px;
+}
+.countries-list li {
+  font-size: 22px;
+}
+
+.country-card {
+  margin-left: 30px;
+  width: 100%;
+}
+.country-name {
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: bold;
+}
+
+.country-flag {
+  width: 400px;
 }
