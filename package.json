@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+// тут вставить url репозитория на гите"
+    "url": "git+https://github.com/BogdanLytvyn/goit-js-hw-12-countries.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "// тут вставить url репозитория на гите"
+    "url": "https://github.com/BogdanLytvyn/goit-js-hw-12-countries.git"
   },
   "homepage": "// тут вставить url GitHub Pages после команды npm run deploy",
   "devDependencies": {
