@@ -1,0 +1,12 @@
+
+{{#each this}}
+<article>
+    <h3 class="name">{{name}}</h3>
+    <p class="location">{{location}}</p>
+    <ul class="abilities">
+        {{#each abilities}}
+        <li class="abilities-item">{{this}}</li>
+        {{/each}}
+        </ul>
+    </article>
+    {{/each}}
