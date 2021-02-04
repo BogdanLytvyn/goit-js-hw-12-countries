@@ -6,6 +6,7 @@ import refs from './js/refs';
 const debounce = require('lodash.debounce');
 
 function inputCountry(event) {
+  event.preventDefault();
   const inputText = event.target.value;
   refs.list.innerHTML = '';
   refs.card.innerHTML = '';
