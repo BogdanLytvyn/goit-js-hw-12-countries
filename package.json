@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/BogdanLytvyn/goit-js-hw-12-countries.git"
   },
-  "homepage": "// тут вставить url GitHub Pages после команды npm run deploy",
+  "homepage": "https://bogdanlytvyn.github.io/goit-js-hw-12-countries/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
