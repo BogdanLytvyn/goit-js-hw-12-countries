@@ -10,7 +10,7 @@ function countryList(data) {
     const markupList = countriesListTpl(data);
     refs.list.insertAdjacentHTML('beforeend', markupList);
   }
-  if (data.length < 2) {
+  if (data.length === 1) {
     const markupCard = countryCardTpl(data);
     refs.card.insertAdjacentHTML('beforeend', markupCard);
   }
